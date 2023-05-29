@@ -15,7 +15,7 @@ class seam_carving:
         self.in_image = cv2.imread(in_file).astype(np.float64)
         self.in_height, self.in_width = self.in_image.shape[: 2]
         # 设置为原图的一半
-        self.out_height = self.in_image.shape[0] // 2
+        self.out_height = self.in_image.shape[0] 
         self.out_width = self.in_image.shape[1] // 2
 
         # keep tracking resulting image
